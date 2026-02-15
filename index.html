@@ -6,28 +6,31 @@
   <title>Colmena Ubuntu</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  <div class="header">
-  <img src="assets/logo-colmena.png" alt="Colmena Ubuntu" class="logo">
-  <div>
-    <h1 id="appName"></h1>
-    <p id="appTagline"></p>
-  </div>
-</div>
-      <div class="pill">TFM · Demo</div>
+  <div class="app">
+
+    <header class="topbar">
+      <div class="header">
+        <img src="assets/logo-colmena.png" alt="Colmena Ubuntu" class="logo">
+        <div>
+          <h1 id="appName"></h1>
+          <p id="appTagline"></p>
+        </div>
+      </div>
     </header>
 
-    <main class="screen" id="screen"></main>
+    <main id="screen" class="screen"></main>
 
-    <nav class="tabbar" aria-label="Navegación">
+    <nav class="tabs">
       <button class="tab active" data-tab="colmena">Colmena</button>
       <button class="tab" data-tab="emociones">Emociones</button>
       <button class="tab" data-tab="momentos">Momentos</button>
       <button class="tab" data-tab="relatos">Relatos</button>
     </nav>
+
   </div>
 
   <script src="app.js"></script>
 </body>
 </html>
-
