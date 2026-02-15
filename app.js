@@ -66,7 +66,10 @@ function renderColmena() {
           La Inteligencia Artificial no sustituye nuestras voces.
           Las escucha, las conecta y transforma lo individual en sabiduría colectiva.<br><br>
           Eres anónima. Eres real. Eres parte de algo más grande.
-          <img src="assets/colmena-hero.png" alt="Colmena Ubuntu" class="hero-image">
+        </div>
+
+        <img src="assets/colmena-hero.png" alt="Imagen Colmena Ubuntu" class="hero-image">
+
         <button class="btn" id="goEmotions">Ver cómo estamos hoy</button>
       </div>
 
@@ -343,4 +346,3 @@ document.addEventListener("click", (e) => {
 });
 
 load();
-
