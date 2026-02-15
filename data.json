@@ -1,0 +1,201 @@
+{
+  "app": {
+    "name": "Colmena Ubuntu",
+    "tagline": "Yo soy porque nosotras somos.",
+    "windowSizeLabel": "últimos 100 posts",
+    "pilotWindowSizeLabel": "ventana piloto (15 posts)"
+  },
+  "emotions": [
+    { "key": "tristeza", "label": "Tristeza", "color": "#5B6CFF" },
+    { "key": "miedo", "label": "Miedo / Incertidumbre", "color": "#FFB020" },
+    { "key": "alegria", "label": "Alegría / Ilusión", "color": "#2ECC71" },
+    { "key": "angustia", "label": "Angustia / Ansiedad", "color": "#A855F7" },
+    { "key": "rabia", "label": "Rabia / Enfado", "color": "#FF4D4D" }
+  ],
+  "thermometer": {
+    "window": 15,
+    "counts": {
+      "tristeza": 6,
+      "miedo": 4,
+      "alegria": 3,
+      "angustia": 1,
+      "rabia": 1
+    },
+    "trend": {
+      "label": "Tristeza alta",
+      "note": "Lectura agregada del piloto; en producción se calcularía sobre una ventana móvil (p.ej., últimos 100 posts)."
+    }
+  },
+  "challenge": {
+    "status": "Sugerencia IA · Pendiente de validación humana",
+    "title": "Hilo para levantar el ánimo",
+    "copy": "Veo Tristeza en el nivel más alto del termómetro. ¿Abrimos un hilo de ‘vergüenza ajena’ para reírnos un rato juntas?"
+  },
+  "clusters": [
+    {
+      "id": "c1",
+      "title": "Transiciones profesionales y decisiones difíciles",
+      "short": "Cambios laborales, reinvención, adopción de IA y decisiones con impacto emocional."
+    },
+    {
+      "id": "c2",
+      "title": "Maternidad y crianza",
+      "short": "Nacimiento, ser madre, crianza con retos y necesidad de red de apoyo."
+    },
+    {
+      "id": "c3",
+      "title": "Salud y diagnósticos",
+      "short": "Enfermedad propia o cercana, diagnósticos y aprendizaje acelerado para sostener."
+    },
+    {
+      "id": "c4",
+      "title": "Duelo, pérdidas y rupturas",
+      "short": "Pérdidas, rupturas y procesos de duelo; necesidad de acompañamiento y empatía."
+    },
+    {
+      "id": "c5",
+      "title": "Autoconocimiento y autoestima",
+      "short": "Puntos de inflexión ligados a quererse más, límites e identidad."
+    }
+  ],
+  "posts": [
+    {
+      "id": "p01",
+      "ageRange": "40–49",
+      "clusterId": "c1",
+      "situation": "Cambio de trabajo",
+      "emotionKey": "miedo",
+      "learning": "Tomarme las cosas con calma, buscar soluciones sin agobiarme y poner límites.",
+      "needed": "Compartir con otras personas en la misma situación"
+    },
+    {
+      "id": "p02",
+      "ageRange": "60+",
+      "clusterId": "c4",
+      "situation": "Suicidio de una persona conocida",
+      "emotionKey": "tristeza",
+      "learning": "Valorar más los pequeños detalles del día a día.",
+      "needed": "Acompañamiento emocional"
+    },
+    {
+      "id": "p03",
+      "ageRange": "50–59",
+      "clusterId": "c1",
+      "situation": "Trabajar con IA",
+      "emotionKey": "alegria",
+      "learning": "Pasé de ser anti-IA a reconocer su capacidad y utilidad.",
+      "needed": "Análisis objetivo"
+    },
+    {
+      "id": "p04",
+      "ageRange": "50–59",
+      "clusterId": "c1",
+      "situation": "Cambio de trabajo",
+      "emotionKey": "miedo",
+      "learning": "Satisfacción personal tras el vértigo inicial.",
+      "needed": "Apoyo y acompañamiento emocional"
+    },
+    {
+      "id": "p05",
+      "ageRange": "50–59",
+      "clusterId": "c2",
+      "situation": "Bullying vivido por mi hija",
+      "emotionKey": "rabia",
+      "learning": "Los buenos profesionales, la medicación cuando toca y la positividad ayudan.",
+      "needed": "Consejo práctico"
+    },
+    {
+      "id": "p06",
+      "ageRange": "30–39",
+      "clusterId": "c2",
+      "situation": "Nacimiento de mi primera bebé",
+      "emotionKey": "angustia",
+      "learning": "Enfocarme en lo bonito; no poner la tirita antes de la herida.",
+      "needed": "Comunidad y tranquilidad/apoyo por parte de la empresa"
+    },
+    {
+      "id": "p07",
+      "ageRange": "40–49",
+      "clusterId": "c3",
+      "situation": "Diagnóstico de autismo de mi hija",
+      "emotionKey": "tristeza",
+      "learning": "Aceptar antes, actuar con más firmeza y empatía.",
+      "needed": "Información sobre el trastorno"
+    },
+    {
+      "id": "p08",
+      "ageRange": "30–39",
+      "clusterId": "c2",
+      "situation": "Ser madre",
+      "emotionKey": "alegria",
+      "learning": "La paciencia es clave; el tiempo pone todo en su lugar.",
+      "needed": "Red de apoyo (familia, amigas, psicóloga/matrona)"
+    },
+    {
+      "id": "p09",
+      "ageRange": "30–39",
+      "clusterId": "c4",
+      "situation": "Despedirme de un bebé tras el parto",
+      "emotionKey": "tristeza",
+      "learning": "La importancia de transitar el duelo y escucharte para seguir avanzando.",
+      "needed": "Comunidad y empatía (un abrazo más que una palabra)"
+    },
+    {
+      "id": "p10",
+      "ageRange": "60+",
+      "clusterId": "c3",
+      "situation": "Problema de salud y decisión de cambio",
+      "emotionKey": "miedo",
+      "learning": "Tomar tiempo para reflexionar y afrontar cambios cuando llegan señales.",
+      "needed": "Comunidad para compartir miedos y dudas"
+    },
+    {
+      "id": "p11",
+      "ageRange": "40–49",
+      "clusterId": "c4",
+      "situation": "Divorcio de mis padres",
+      "emotionKey": "tristeza",
+      "learning": "Las relaciones requieren cuidado y comunicación; poner límites y hablar a tiempo.",
+      "needed": "Apoyo además de resiliencia emocional"
+    },
+    {
+      "id": "p12",
+      "ageRange": "40–49",
+      "clusterId": "c3",
+      "situation": "Diagnóstico de enfermedad de un familiar directo",
+      "emotionKey": "miedo",
+      "learning": "Somos fuertes, pero también es válido ser frágiles.",
+      "needed": "Pautas para frenar miedos e inseguridades"
+    },
+    {
+      "id": "p13",
+      "ageRange": "40–49",
+      "clusterId": "c5",
+      "situation": "Taller círculo de mujeres y autoestima",
+      "emotionKey": "tristeza",
+      "learning": "Respetarnos, amarnos y confiar en nosotras para crear nuestra realidad.",
+      "needed": "Estar en grupo (comunidad)"
+    },
+    {
+      "id": "p14",
+      "ageRange": "50–59",
+      "clusterId": "c3",
+      "situation": "Operación ocular por alta miopía",
+      "emotionKey": "alegria",
+      "learning": "Apuesta por tus ideas.",
+      "needed": "Comunidad"
+    },
+    {
+      "id": "p15",
+      "ageRange": "50–59",
+      "clusterId": "c1",
+      "situation": "Reducción de trabajo y despido de personas cercanas",
+      "emotionKey": "tristeza",
+      "learning": "Aprendí a trabajar mi mente generando pensamientos positivos.",
+      "needed": "Consejo práctico"
+    }
+  ],
+  "links": {
+    "surveyPhase2Url": "PON_AQUI_TU_LINK_DE_LA_ENCUESTA_FASE_2"
+  }
+}
