@@ -51,7 +51,8 @@
     ]
   },
   "links": {
-    "surveyPhase2Url": "PON_AQUI_TU_LINK_DE_LA_ENCUESTA_FASE_2"
+    "feedbackFormUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfPYF1MsDnvQFxD8_kcdMsg1b9Y99SgwboBqxw8SSzx_3ZH3Q/viewform?usp=header",
+    "challengeFormUrl": "https://docs.google.com/forms/d/e/1FAIpQLScmHGS-Hqvmppx3NKolcibCi24BEM9X2f60VuanVbeR66oy2Q/viewform?usp=publish-editor"
   },
   "relatos": [
     {
@@ -110,20 +111,22 @@
         "needed": "Apoyo y acompañamiento emocional"
       }
     },
+
     {
       "id": "r05",
-      "nickname": "Leona 🦁",
-      "ageRange": "50–59",
+      "nickname": "Brisa 🌬️",
+      "ageRange": "—",
       "momentId": "m2",
-      "title": "Cuando tu hija sufre",
-      "summary": "Comparte el impacto emocional del bullying a su hija: sorpresa, rabia y preocupación. Remarca la importancia de buenos profesionales, medicación cuando toca y una mirada positiva. Ella necesitaba consejo práctico para actuar.",
+      "title": "Cuando cuidar desgasta",
+      "summary": "Comparte cómo, en una etapa de cuidados intensos, sintió una mezcla de agotamiento y amor. Aprendió a pedir ayuda antes de romperse. Cree que una comunidad puede sostener cuando una se siente sin aire.",
       "original": {
-        "situation": "El Bulling que vivió mi hija de 10 años",
-        "emotion": "Sorpresa, rabia, enfado y preocupación",
-        "learning": "La medicación, los buenos profesionales y la positividad es lo que más ayuda",
-        "needed": "Consejo práctico"
+        "situation": "Relato ajustado por privacidad",
+        "emotion": "—",
+        "learning": "—",
+        "needed": "—"
       }
     },
+
     {
       "id": "r06",
       "nickname": "Abejita 🌼",
@@ -138,20 +141,22 @@
         "needed": "Una comunidad y tranquilidad/apoyo por parte de la empresa"
       }
     },
+
     {
       "id": "r07",
-      "nickname": "Trébol 🍀",
-      "ageRange": "40–49",
+      "nickname": "Aurora 🌤️",
+      "ageRange": "—",
       "momentId": "m3",
-      "title": "Aprender a sostener un diagnóstico",
-      "summary": "Tras el diagnóstico de autismo de su hija, habla de tristeza y aprendizaje acelerado. Cree que habría necesitado antes la información que tiene ahora, para aceptar, actuar y acompañar mejor.",
+      "title": "Aprender a navegar la incertidumbre",
+      "summary": "Cuenta un momento en el que una noticia inesperada lo cambió todo. Aprendió a ir paso a paso, sin exigirse certezas inmediatas. Lo que más habría ayudado: información clara y una red que no juzga.",
       "original": {
-        "situation": "Diagnóstico de autismo de mi hija de 6 años",
-        "emotion": "Tristeza",
-        "learning": "Hubiese sido mejor actuar más firme, aceptar la situación y ser más empática con la niña",
-        "needed": "Disponer de información sobre este tipo de trastornos"
+        "situation": "Relato ajustado por privacidad",
+        "emotion": "—",
+        "learning": "—",
+        "needed": "—"
       }
     },
+
     {
       "id": "r08",
       "nickname": "Sol ☀️",
@@ -160,26 +165,28 @@
       "title": "Alegría con miedo",
       "summary": "Define la maternidad como felicidad mezclada con incertidumbre. Su aprendizaje: paciencia. Y su necesidad: red de comadres, familia, amigas y apoyo emocional profesional.",
       "original": {
-        "situation": "Ser madre",
-        "emotion": "Felicidad y alegría mezclada con miedo e incertidumbre",
-        "learning": "El tiempo pone todo en su lugar y la paciencia es clave para progresar",
-        "needed": "Apoyo de familiares y amigos, red de comadres, apoyo emocional de psico + matrona"
+        "situation": "ser madre",
+        "emotion": "felicidad y alegría mezclada con miedo e incertidumbre",
+        "learning": "el tiempo pone todo en su lugar y la paciencia es clave para progresar",
+        "needed": "apoyo de familiares y amigos, red de comadres, apoyo emocional de psico + matrona"
       }
     },
+
     {
       "id": "r09",
-      "nickname": "Mariposa 🦋",
-      "ageRange": "30–39",
+      "nickname": "Luna 🌙",
+      "ageRange": "—",
       "momentId": "m4",
-      "title": "Un duelo que pide abrazo",
-      "summary": "Habla de despedirse de un bebé tras el parto. Remarca la importancia de transitar el duelo y escucharse. En ese momento, más que palabras, necesitaba empatía y comunidad.",
+      "title": "Una despedida silenciosa",
+      "summary": "Habla de una pérdida que obligó a parar el mundo. Su aprendizaje: dejar espacio al duelo sin prisa. En ese momento, más que consejos, necesitaba presencia y empatía.",
       "original": {
-        "situation": "Despedirme de un bebé tras el parto",
-        "emotion": "Tristeza",
-        "learning": "La importancia de TRANSITAR el duelo. Escucharte y sobre eso tomar decisiones para seguir avanzando.",
-        "needed": "Comunidad, Empatía. Un abrazo más que una palabra."
+        "situation": "Relato ajustado por privacidad",
+        "emotion": "—",
+        "learning": "—",
+        "needed": "—"
       }
     },
+
     {
       "id": "r10",
       "nickname": "Montaña ⛰️",
@@ -188,12 +195,13 @@
       "title": "Cuando la salud obliga a parar",
       "summary": "Cuenta un problema de salud que la llevó a replantearse presente y prioridades. Describe miedo e incertidumbre, y cree que una comunidad de personas en situaciones similares habría sido un gran apoyo.",
       "original": {
-        "situation": "Problema de salud y decisión de cambio personal/profesional",
+        "situation": "Un problema de salud donde reflexionas sobre tu presente, tanto profesional y personal, y analizas profundamente sobre tu presente y lo que realmente desearias, pensando tb en tu entorno mas cercano. En ese momento tome una decision de cambio en mi vida tanto personal como profesional",
         "emotion": "Miedo, incertidumbre",
-        "learning": "Tomar tiempo para reflexionar y afrontar nuevos cambios cuando llegan señales",
-        "needed": "Comunidad para compartir miedos y dudas"
+        "learning": "Hay momentos o señales que nos llegan y donde es necesario tomar un tiempo para reflexionar y afrontar nuevos cambios (romper)",
+        "needed": "Una comunidad con personas en situaciones como la mia me habria ayudado mucho, el poder compartir tus miedos y las muchas dudas que surgen en situaciones similares me habria ayudado en ese momento"
       }
     },
+
     {
       "id": "r11",
       "nickname": "Loto 🌸",
@@ -205,7 +213,7 @@
         "situation": "El divorcio de mis padres",
         "emotion": "Tristeza",
         "learning": "Las relaciones requieren cuidado y comunicación. El amor por sí solo no siempre basta; hablar a tiempo, poner límites y escuchar importa mucho.",
-        "needed": "Pedir apoyo además de la resiliencia emocional."
+        "needed": "Pedir apoyo además de la resiliencia emocional. Pasar por una ruptura cercana puede fortalecer tu capacidad para adaptarte, pedir apoyo y cuidarte."
       }
     },
     {
@@ -218,38 +226,41 @@
       "original": {
         "situation": "Un diagnóstico de enfermedad de un familiar muy directo",
         "emotion": "Miedo",
-        "learning": "Somos fuertes y supervivientes, pero también tenemos la suerte de poder ser frágiles y que TODO es válido.",
+        "learning": "Que somos fuertes y supervivientes, pero que a la vez tenemos la suerte de poder ser frágiles y que TODO es valido.",
         "needed": "Pautas para frenar miedos, inseguridades..."
       }
     },
+
     {
       "id": "r13",
-      "nickname": "Espejo 🪞",
-      "ageRange": "40–49",
+      "nickname": "Jazmín 🌸",
+      "ageRange": "—",
       "momentId": "m5",
-      "title": "Quererse poco, entenderlo todo",
-      "summary": "Describe un círculo de mujeres que le ayudó a ver que se quería muy poco. Su aprendizaje gira en torno al respeto propio y la confianza. Para ella, el grupo fue clave.",
+      "title": "Volver a elegirme",
+      "summary": "Describe un punto de inflexión en el que se dio cuenta de cuánto se exigía. Aprendió a tratarse con más respeto y a ponerse en el centro sin culpa. El grupo fue el espejo que necesitaba.",
       "original": {
-        "situation": "Taller círculo de mujeres: autoconocimiento",
-        "emotion": "Tristeza",
-        "learning": "Respetarnos y amarnos para llevar bien lo que nos pasa y crear nuestra realidad.",
-        "needed": "Estar en grupo: la comunidad es muy importante."
+        "situation": "Relato ajustado por privacidad",
+        "emotion": "—",
+        "learning": "—",
+        "needed": "—"
       }
     },
+
     {
       "id": "r14",
-      "nickname": "Horizonte 👁️",
-      "ageRange": "50–59",
+      "nickname": "Río 💧",
+      "ageRange": "—",
       "momentId": "m3",
-      "title": "Un paso hacia adelante",
-      "summary": "Tras una operación ocular, habla de felicidad y confianza: apostar por tus ideas. Le habría ayudado compartirlo con una comunidad.",
+      "title": "Un paso valiente",
+      "summary": "Comparte una decisión importante que le devolvió confianza. Su aprendizaje: apostar por una misma, incluso con miedo. Cree que compartirlo con otras mujeres lo habría hecho menos solitario.",
       "original": {
-        "situation": "Operación ocular por alta miopía",
-        "emotion": "Felicidad",
-        "learning": "Apuesta por tus ideas",
-        "needed": "Comunidad"
+        "situation": "Relato ajustado por privacidad",
+        "emotion": "—",
+        "learning": "—",
+        "needed": "—"
       }
     },
+
     {
       "id": "r15",
       "nickname": "Raíz 🌱",
@@ -258,10 +269,10 @@
       "title": "Decisiones dolorosas en el trabajo",
       "summary": "Cuenta cómo vio reducirse su trabajo y tuvo que despedir a personas muy cercanas. Habla de mucha tristeza y del aprendizaje de entrenar la mente hacia pensamientos positivos. Necesitaba consejo práctico.",
       "original": {
-        "situation": "Reducción de trabajo y despido de personas cercanas",
+        "situation": "Veía como se iba reduciendo mi trabajo y tuve que tomar decisiones, como el despido de gente que ya los consideraba mi familia",
         "emotion": "Mucha tristeza",
         "learning": "Aprendí a trabajar mi mente generando pensamientos positivos",
-        "needed": "Consejo práctico"
+        "needed": "Consejo practico"
       }
     }
   ]
