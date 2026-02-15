@@ -2,200 +2,267 @@
   "app": {
     "name": "Colmena Ubuntu",
     "tagline": "Yo soy porque nosotras somos.",
-    "windowSizeLabel": "últimos 100 posts",
-    "pilotWindowSizeLabel": "ventana piloto (15 posts)"
+    "pilotWindowSizeLabel": "ventana piloto (15 relatos)"
   },
-  "emotions": [
-    { "key": "tristeza", "label": "Tristeza", "color": "#5B6CFF" },
-    { "key": "miedo", "label": "Miedo / Incertidumbre", "color": "#FFB020" },
-    { "key": "alegria", "label": "Alegría / Ilusión", "color": "#2ECC71" },
-    { "key": "angustia", "label": "Angustia / Ansiedad", "color": "#A855F7" },
-    { "key": "rabia", "label": "Rabia / Enfado", "color": "#FF4D4D" }
-  ],
-  "thermometer": {
-    "window": 15,
-    "counts": {
-      "tristeza": 6,
-      "miedo": 4,
-      "alegria": 3,
-      "angustia": 1,
-      "rabia": 1
-    },
-    "trend": {
-      "label": "Tristeza alta",
-      "note": "Lectura agregada del piloto; en producción se calcularía sobre una ventana móvil (p.ej., últimos 100 posts)."
-    }
+  "emotionCloud": {
+    "items": [
+      { "key": "tristeza", "label": "Tristeza", "style": "lav", "weight": 6, "pos": { "x": 30, "y": 40 }, "anim": "a" },
+      { "key": "incertidumbre", "label": "Incertidumbre", "style": "nude", "weight": 4, "pos": { "x": 65, "y": 55 }, "anim": "b" },
+      { "key": "miedo", "label": "Miedo", "style": "peach", "weight": 4, "pos": { "x": 55, "y": 30 }, "anim": "c" },
+      { "key": "amor", "label": "Amor", "style": "rosa", "weight": 3, "pos": { "x": 40, "y": 70 }, "anim": "b" },
+      { "key": "resiliencia", "label": "Resiliencia", "style": "sage", "weight": 3, "pos": { "x": 72, "y": 75 }, "anim": "a" }
+    ],
+    "narrative": "En los últimos días hemos compartido historias atravesadas por tristeza e incertidumbre. Pero también por amor y resiliencia silenciosa. Así late hoy nuestra colmena.",
+    "note": "Lectura agregada del piloto; en producto real se calcularía sobre una ventana móvil (p.ej., últimos 100 relatos)."
   },
   "challenge": {
-    "status": "Sugerencia IA · Pendiente de validación humana",
-    "title": "Hilo para levantar el ánimo",
-    "copy": "Veo Tristeza en el nivel más alto del termómetro. ¿Abrimos un hilo de ‘vergüenza ajena’ para reírnos un rato juntas?"
+    "status": "Sugerencia IA · Validada por moderación",
+    "copy": "Detectamos una presencia creciente de tristeza. ¿Abrimos un hilo para compartir la vez que pasaste más vergüenza ajena y hoy te hace reír?"
   },
-  "clusters": [
-    {
-      "id": "c1",
-      "title": "Transiciones profesionales y decisiones difíciles",
-      "short": "Cambios laborales, reinvención, adopción de IA y decisiones con impacto emocional."
-    },
-    {
-      "id": "c2",
-      "title": "Maternidad y crianza",
-      "short": "Nacimiento, ser madre, crianza con retos y necesidad de red de apoyo."
-    },
-    {
-      "id": "c3",
-      "title": "Salud y diagnósticos",
-      "short": "Enfermedad propia o cercana, diagnósticos y aprendizaje acelerado para sostener."
-    },
-    {
-      "id": "c4",
-      "title": "Duelo, pérdidas y rupturas",
-      "short": "Pérdidas, rupturas y procesos de duelo; necesidad de acompañamiento y empatía."
-    },
-    {
-      "id": "c5",
-      "title": "Autoconocimiento y autoestima",
-      "short": "Puntos de inflexión ligados a quererse más, límites e identidad."
-    }
-  ],
-  "posts": [
-    {
-      "id": "p01",
-      "ageRange": "40–49",
-      "clusterId": "c1",
-      "situation": "Cambio de trabajo",
-      "emotionKey": "miedo",
-      "learning": "Tomarme las cosas con calma, buscar soluciones sin agobiarme y poner límites.",
-      "needed": "Compartir con otras personas en la misma situación"
-    },
-    {
-      "id": "p02",
-      "ageRange": "60+",
-      "clusterId": "c4",
-      "situation": "Suicidio de una persona conocida",
-      "emotionKey": "tristeza",
-      "learning": "Valorar más los pequeños detalles del día a día.",
-      "needed": "Acompañamiento emocional"
-    },
-    {
-      "id": "p03",
-      "ageRange": "50–59",
-      "clusterId": "c1",
-      "situation": "Trabajar con IA",
-      "emotionKey": "alegria",
-      "learning": "Pasé de ser anti-IA a reconocer su capacidad y utilidad.",
-      "needed": "Análisis objetivo"
-    },
-    {
-      "id": "p04",
-      "ageRange": "50–59",
-      "clusterId": "c1",
-      "situation": "Cambio de trabajo",
-      "emotionKey": "miedo",
-      "learning": "Satisfacción personal tras el vértigo inicial.",
-      "needed": "Apoyo y acompañamiento emocional"
-    },
-    {
-      "id": "p05",
-      "ageRange": "50–59",
-      "clusterId": "c2",
-      "situation": "Bullying vivido por mi hija",
-      "emotionKey": "rabia",
-      "learning": "Los buenos profesionales, la medicación cuando toca y la positividad ayudan.",
-      "needed": "Consejo práctico"
-    },
-    {
-      "id": "p06",
-      "ageRange": "30–39",
-      "clusterId": "c2",
-      "situation": "Nacimiento de mi primera bebé",
-      "emotionKey": "angustia",
-      "learning": "Enfocarme en lo bonito; no poner la tirita antes de la herida.",
-      "needed": "Comunidad y tranquilidad/apoyo por parte de la empresa"
-    },
-    {
-      "id": "p07",
-      "ageRange": "40–49",
-      "clusterId": "c3",
-      "situation": "Diagnóstico de autismo de mi hija",
-      "emotionKey": "tristeza",
-      "learning": "Aceptar antes, actuar con más firmeza y empatía.",
-      "needed": "Información sobre el trastorno"
-    },
-    {
-      "id": "p08",
-      "ageRange": "30–39",
-      "clusterId": "c2",
-      "situation": "Ser madre",
-      "emotionKey": "alegria",
-      "learning": "La paciencia es clave; el tiempo pone todo en su lugar.",
-      "needed": "Red de apoyo (familia, amigas, psicóloga/matrona)"
-    },
-    {
-      "id": "p09",
-      "ageRange": "30–39",
-      "clusterId": "c4",
-      "situation": "Despedirme de un bebé tras el parto",
-      "emotionKey": "tristeza",
-      "learning": "La importancia de transitar el duelo y escucharte para seguir avanzando.",
-      "needed": "Comunidad y empatía (un abrazo más que una palabra)"
-    },
-    {
-      "id": "p10",
-      "ageRange": "60+",
-      "clusterId": "c3",
-      "situation": "Problema de salud y decisión de cambio",
-      "emotionKey": "miedo",
-      "learning": "Tomar tiempo para reflexionar y afrontar cambios cuando llegan señales.",
-      "needed": "Comunidad para compartir miedos y dudas"
-    },
-    {
-      "id": "p11",
-      "ageRange": "40–49",
-      "clusterId": "c4",
-      "situation": "Divorcio de mis padres",
-      "emotionKey": "tristeza",
-      "learning": "Las relaciones requieren cuidado y comunicación; poner límites y hablar a tiempo.",
-      "needed": "Apoyo además de resiliencia emocional"
-    },
-    {
-      "id": "p12",
-      "ageRange": "40–49",
-      "clusterId": "c3",
-      "situation": "Diagnóstico de enfermedad de un familiar directo",
-      "emotionKey": "miedo",
-      "learning": "Somos fuertes, pero también es válido ser frágiles.",
-      "needed": "Pautas para frenar miedos e inseguridades"
-    },
-    {
-      "id": "p13",
-      "ageRange": "40–49",
-      "clusterId": "c5",
-      "situation": "Taller círculo de mujeres y autoestima",
-      "emotionKey": "tristeza",
-      "learning": "Respetarnos, amarnos y confiar en nosotras para crear nuestra realidad.",
-      "needed": "Estar en grupo (comunidad)"
-    },
-    {
-      "id": "p14",
-      "ageRange": "50–59",
-      "clusterId": "c3",
-      "situation": "Operación ocular por alta miopía",
-      "emotionKey": "alegria",
-      "learning": "Apuesta por tus ideas.",
-      "needed": "Comunidad"
-    },
-    {
-      "id": "p15",
-      "ageRange": "50–59",
-      "clusterId": "c1",
-      "situation": "Reducción de trabajo y despido de personas cercanas",
-      "emotionKey": "tristeza",
-      "learning": "Aprendí a trabajar mi mente generando pensamientos positivos.",
-      "needed": "Consejo práctico"
-    }
-  ],
+  "moments": {
+    "title": "Nuestros Momentos Vitales",
+    "subtitle": "(Clusters detectados por IA · para el TFM)",
+    "items": [
+      {
+        "id": "m1",
+        "title": "Cambios profesionales y decisiones difíciles",
+        "text": "Cuando el trabajo cambia —o nos cambia— aparecen vértigo, dudas y también orgullo por sostener lo complejo."
+      },
+      {
+        "id": "m2",
+        "title": "Maternidad y crianza",
+        "text": "Nacer como madre trae amor, pero también miedos nuevos. La tribu importa más de lo que creíamos."
+      },
+      {
+        "id": "m3",
+        "title": "Salud y diagnósticos transformadores",
+        "text": "Una noticia médica reorganiza prioridades. Aprendemos a decidir mientras seguimos sintiendo."
+      },
+      {
+        "id": "m4",
+        "title": "Duelo, pérdidas y rupturas",
+        "text": "Hay despedidas que no se explican. A veces lo que más cura es presencia y empatía."
+      },
+      {
+        "id": "m5",
+        "title": "Autodescubrimiento y amor propio",
+        "text": "A veces el punto de inflexión es mirarnos con más respeto. Y empezar a tratarnos como hogar."
+      }
+    ]
+  },
   "links": {
     "surveyPhase2Url": "PON_AQUI_TU_LINK_DE_LA_ENCUESTA_FASE_2"
-  }
+  },
+  "relatos": [
+    {
+      "id": "r01",
+      "nickname": "Luciérnaga 🐝",
+      "ageRange": "40–49",
+      "momentId": "m1",
+      "title": "Un cambio de trabajo y el vértigo",
+      "summary": "Nos cuenta cómo un cambio laboral le trajo miedo e ilusión a la vez. Aprendió a ponerse límites, a ir con calma y a construir soluciones paso a paso. Le habría ayudado sentir que no estaba sola en ese tránsito.",
+      "original": {
+        "situation": "Cambio de trabajo",
+        "emotion": "Miedo e ilusión",
+        "learning": "Hay que tomarse las cosas con calma, de manera positiva, construyendo y buscando soluciones a los problemas que van surgiendo, sin agobiarse. Ser sincero con uno mismo y ponerse limites.",
+        "needed": "Haber compartido mi situación con otras personas en la misma situación"
+      }
+    },
+    {
+      "id": "r02",
+      "nickname": "Nube 🌫️",
+      "ageRange": "60+",
+      "momentId": "m4",
+      "title": "Una pérdida que lo cambia todo",
+      "summary": "Tras la muerte de alguien cercano, habla de tristeza y de cómo ese golpe la llevó a valorar lo pequeño. En ese momento, lo que más necesitaba era acompañamiento emocional.",
+      "original": {
+        "situation": "El suicidio de 1 persona conocida",
+        "emotion": "Tristeza",
+        "learning": "Aprender a valorar más pequeños detalles que a diario no les doy importancia",
+        "needed": "Acompañamiento emocional"
+      }
+    },
+    {
+      "id": "r03",
+      "nickname": "Chispa ✨",
+      "ageRange": "50–59",
+      "momentId": "m1",
+      "title": "Reconciliarse con la IA",
+      "summary": "Explica cómo pasó de desconfiar de la IA a sentir que trabaja mejor y más rápido. Para ella fue clave mirarlo con objetividad y sin prejuicios.",
+      "original": {
+        "situation": "Trabajar con la IA",
+        "emotion": "Sentir que trabajo mejor y más rápido",
+        "learning": "Era anti IA antes de conocer bien su capacidad",
+        "needed": "Análisis objetivo"
+      }
+    },
+    {
+      "id": "r04",
+      "nickname": "Brújula 🧭",
+      "ageRange": "50–59",
+      "momentId": "m1",
+      "title": "Vértigo y orgullo",
+      "summary": "Cuenta un cambio de trabajo vivido con vértigo, que después se transformó en satisfacción personal. En ese proceso, el apoyo emocional habría sido un sostén clave.",
+      "original": {
+        "situation": "Cambio de trabajo",
+        "emotion": "Vértigo",
+        "learning": "Satisfacción personal",
+        "needed": "Apoyo y acompañamiento emocional"
+      }
+    },
+    {
+      "id": "r05",
+      "nickname": "Leona 🦁",
+      "ageRange": "50–59",
+      "momentId": "m2",
+      "title": "Cuando tu hija sufre",
+      "summary": "Comparte el impacto emocional del bullying a su hija: sorpresa, rabia y preocupación. Remarca la importancia de buenos profesionales, medicación cuando toca y una mirada positiva. Ella necesitaba consejo práctico para actuar.",
+      "original": {
+        "situation": "El Bulling que vivió mi hija de 10 años",
+        "emotion": "Sorpresa, rabia, enfado y preocupación",
+        "learning": "La medicación, los buenos profesionales y la positividad es lo que más ayuda",
+        "needed": "Consejo práctico"
+      }
+    },
+    {
+      "id": "r06",
+      "nickname": "Abejita 🌼",
+      "ageRange": "30–39",
+      "momentId": "m2",
+      "title": "Ser madre primeriza",
+      "summary": "Cuenta cómo el nacimiento de su primera bebé entrelazó angustia, soledad y amor. Aprendió a no anticipar el dolor y a enfocarse en lo bonito. Le habría ayudado una comunidad y sentir apoyo (también desde la empresa).",
+      "original": {
+        "situation": "Reciente nacimiento de mi primera bebe",
+        "emotion": "Angustia; temor; soledad; amor; ansiedad",
+        "learning": "Enfocarse en lo bonito o en la parte buena siempre. No poner la tirita antes de la herida",
+        "needed": "Una comunidad y tranquilidad/apoyo por parte de la empresa"
+      }
+    },
+    {
+      "id": "r07",
+      "nickname": "Trébol 🍀",
+      "ageRange": "40–49",
+      "momentId": "m3",
+      "title": "Aprender a sostener un diagnóstico",
+      "summary": "Tras el diagnóstico de autismo de su hija, habla de tristeza y aprendizaje acelerado. Cree que habría necesitado antes la información que tiene ahora, para aceptar, actuar y acompañar mejor.",
+      "original": {
+        "situation": "Diagnóstico de autismo de mi hija de 6 años",
+        "emotion": "Tristeza",
+        "learning": "Hubiese sido mejor actuar más firme, aceptar la situación y ser más empática con la niña",
+        "needed": "Disponer de información sobre este tipo de trastornos"
+      }
+    },
+    {
+      "id": "r08",
+      "nickname": "Sol ☀️",
+      "ageRange": "30–39",
+      "momentId": "m2",
+      "title": "Alegría con miedo",
+      "summary": "Define la maternidad como felicidad mezclada con incertidumbre. Su aprendizaje: paciencia. Y su necesidad: red de comadres, familia, amigas y apoyo emocional profesional.",
+      "original": {
+        "situation": "Ser madre",
+        "emotion": "Felicidad y alegría mezclada con miedo e incertidumbre",
+        "learning": "El tiempo pone todo en su lugar y la paciencia es clave para progresar",
+        "needed": "Apoyo de familiares y amigos, red de comadres, apoyo emocional de psico + matrona"
+      }
+    },
+    {
+      "id": "r09",
+      "nickname": "Mariposa 🦋",
+      "ageRange": "30–39",
+      "momentId": "m4",
+      "title": "Un duelo que pide abrazo",
+      "summary": "Habla de despedirse de un bebé tras el parto. Remarca la importancia de transitar el duelo y escucharse. En ese momento, más que palabras, necesitaba empatía y comunidad.",
+      "original": {
+        "situation": "Despedirme de un bebé tras el parto",
+        "emotion": "Tristeza",
+        "learning": "La importancia de TRANSITAR el duelo. Escucharte y sobre eso tomar decisiones para seguir avanzando.",
+        "needed": "Comunidad, Empatía. Un abrazo más que una palabra."
+      }
+    },
+    {
+      "id": "r10",
+      "nickname": "Montaña ⛰️",
+      "ageRange": "60+",
+      "momentId": "m3",
+      "title": "Cuando la salud obliga a parar",
+      "summary": "Cuenta un problema de salud que la llevó a replantearse presente y prioridades. Describe miedo e incertidumbre, y cree que una comunidad de personas en situaciones similares habría sido un gran apoyo.",
+      "original": {
+        "situation": "Problema de salud y decisión de cambio personal/profesional",
+        "emotion": "Miedo, incertidumbre",
+        "learning": "Tomar tiempo para reflexionar y afrontar nuevos cambios cuando llegan señales",
+        "needed": "Comunidad para compartir miedos y dudas"
+      }
+    },
+    {
+      "id": "r11",
+      "nickname": "Loto 🌸",
+      "ageRange": "40–49",
+      "momentId": "m4",
+      "title": "Una ruptura cercana",
+      "summary": "El divorcio de sus padres le dejó tristeza y un aprendizaje: el amor no basta sin comunicación y límites. Necesitaba apoyo y también construir resiliencia emocional.",
+      "original": {
+        "situation": "El divorcio de mis padres",
+        "emotion": "Tristeza",
+        "learning": "Las relaciones requieren cuidado y comunicación. El amor por sí solo no siempre basta; hablar a tiempo, poner límites y escuchar importa mucho.",
+        "needed": "Pedir apoyo además de la resiliencia emocional."
+      }
+    },
+    {
+      "id": "r12",
+      "nickname": "Faro 🕯️",
+      "ageRange": "40–49",
+      "momentId": "m3",
+      "title": "Miedo y fragilidad válida",
+      "summary": "Tras un diagnóstico familiar, habla de miedo. Su aprendizaje: somos fuertes y también es válido ser frágiles. Necesitaba pautas para frenar inseguridades.",
+      "original": {
+        "situation": "Un diagnóstico de enfermedad de un familiar muy directo",
+        "emotion": "Miedo",
+        "learning": "Somos fuertes y supervivientes, pero también tenemos la suerte de poder ser frágiles y que TODO es válido.",
+        "needed": "Pautas para frenar miedos, inseguridades..."
+      }
+    },
+    {
+      "id": "r13",
+      "nickname": "Espejo 🪞",
+      "ageRange": "40–49",
+      "momentId": "m5",
+      "title": "Quererse poco, entenderlo todo",
+      "summary": "Describe un círculo de mujeres que le ayudó a ver que se quería muy poco. Su aprendizaje gira en torno al respeto propio y la confianza. Para ella, el grupo fue clave.",
+      "original": {
+        "situation": "Taller círculo de mujeres: autoconocimiento",
+        "emotion": "Tristeza",
+        "learning": "Respetarnos y amarnos para llevar bien lo que nos pasa y crear nuestra realidad.",
+        "needed": "Estar en grupo: la comunidad es muy importante."
+      }
+    },
+    {
+      "id": "r14",
+      "nickname": "Horizonte 👁️",
+      "ageRange": "50–59",
+      "momentId": "m3",
+      "title": "Un paso hacia adelante",
+      "summary": "Tras una operación ocular, habla de felicidad y confianza: apostar por tus ideas. Le habría ayudado compartirlo con una comunidad.",
+      "original": {
+        "situation": "Operación ocular por alta miopía",
+        "emotion": "Felicidad",
+        "learning": "Apuesta por tus ideas",
+        "needed": "Comunidad"
+      }
+    },
+    {
+      "id": "r15",
+      "nickname": "Raíz 🌱",
+      "ageRange": "50–59",
+      "momentId": "m1",
+      "title": "Decisiones dolorosas en el trabajo",
+      "summary": "Cuenta cómo vio reducirse su trabajo y tuvo que despedir a personas muy cercanas. Habla de mucha tristeza y del aprendizaje de entrenar la mente hacia pensamientos positivos. Necesitaba consejo práctico.",
+      "original": {
+        "situation": "Reducción de trabajo y despido de personas cercanas",
+        "emotion": "Mucha tristeza",
+        "learning": "Aprendí a trabajar mi mente generando pensamientos positivos",
+        "needed": "Consejo práctico"
+      }
+    }
+  ]
 }
